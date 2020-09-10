@@ -9,7 +9,6 @@ function sendMail($to,$title,$content){
  
     $mail->SMTPAuth=true;
  
-    //链接邮箱域名的服务器地址
     $mail->Host = 'mail.google.com'';
  
     $mail->SMTPOptions = array(
